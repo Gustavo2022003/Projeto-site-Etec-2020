@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <title>Atom.com | Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keyword" content="pop, cultura pop, noticias">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  </head>
+  <body>
+    <div id="principal"><!--Div principal-->
+
+        <nav id="navbar"><!--Barra de navegação-->
+            <ul class="nav nav-pills">
+                <a class="nav-link active" href="index.html">Home</a>
+                <a class="nav-link" href="noticias.html">Notícias</a>
+                <a class="nav-link" href="jogos.html">Jogos</a>
+                <a class="nav-link" href="cinema.html">Cinema</a>
+                <a class="nav-link" href="serie.html">Séries</a>
+                <a class="nav-link" href="faq.html">FAQ</a>
+                <a class="nav-link" href="creditos.html">Créditos</a>
+                <a href="index.html"><img src="img/logo.png" width="200px" height="40px" style="margin-left: 780px;"></a>
+                <form class="form-inline my-2 my-lg-0" id="pesquisa">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </ul>
+        </nav>
+        
+        <!--Carousel-->
+        <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ul>
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <a href="#minecraft"><img class="d-block w-100 responsive" src="img/smashbros.jpg" alt="Minecraft Super Smash Bros."></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#console"><img class="d-block w-100 responsive" src="img/ps5xbox.jpg" alt="Consoles 2020"></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="#starwars"><img class="d-block w-100 responsive" src="img/starwars.jpg" alt="Star Wars"></a>
+                </div>
+
+                <div class="carousel-item">
+                    <a href="serie.html"><img class="d-block w-100 responsive" src="img/outer3.jpg" alt="Outer Banks"></a>
+                </div>
+
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+
+        </div>
+        <!--Fim carousel-->
+
+        <div class="container-lg" id="materia">
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <h1 class="textcenter">Confira as últimas novidades!</h1>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <div class="row" id="cards">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/genshin.jpg" class="card-img-top" alt="Genshin Impact">
+                  <div class="card-body">
+                    <h5 class="card-title">Genshin Impact</h5>
+                    <p class="card-text" id="card">Genshin Impact, jogo de ação e RPG gratuito, superou 17 milhões de downloads em quatro dias.</p>
+                    <a href="genshin.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/fallguys.png" class="card-img-top" alt="Fall Guys">
+                  <div class="card-body">
+                    <h5 class="card-title">Fall Guys: Knight Fever</h5>
+                    <p class="card-text" id="card">Antecipando a chegada da Temporada 2 de Fall Guys: Ultimate Knockdown em 8 de outubro.</p>
+                    <a href="fallguys.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/cyberpunk.png" class="card-img-top" alt="CyberPunk 2077">
+                  <div class="card-body">
+                    <h5 class="card-title">Cyberpunk 2077</h5>
+                    <p class="card-text" id="card">Desenvolvimento de Cyberpunk 2077 é concluído. CD Projekt Red anuncia a conclusão.</p>
+                    <a href="cyberpunk.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+          </div>
+          <div class="row" id="cards">
+              <div class="card" style="width: 18rem;">
+                  <img src="img/sherlock.jpg" class="card-img-top" alt="Sherlock holmes">
+                  <div class="card-body">
+                    <h5 class="card-title">Sherlock Holmes</h5>
+                    <p class="card-text" id="card">Robert Downey Jr. quer fazer universo expandido de Sherlock Holmes.</p>
+                    <a href="sherlock.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/thewitcher.jpg" class="card-img-top" alt="The witcher">
+                  <div class="card-body">
+                    <h5 class="card-title">The Witcher</h5>
+                    <p class="card-text" id="card">Henry Cavill revela primeiras imagens da 2ª temporada da série The Witcher.</p>
+                    <a href="thewitcher.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                  <img src="img/mulhermaravilha.jpg" class="card-img-top" alt="Mulher Maravilha">
+                  <div class="card-body">
+                    <h5 class="card-title">Mulher Maravilha</h5>
+                    <p class="card-text" id="card">Mulher-Maravilha 1984 | Diana mostra armadura dourada em capa de revista.</p>
+                    <a href="wonderwoman.html" class="btn btn-dark" role="button">Ler mais</a>
+                  </div>
+                </div>
+            </div>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <h1 id="minecraft">Minecraft no Super Smash Bros!</h1>
+            <p>Smash Bros. Ultimate ganha um novo lutador em breve: o personagem Steve da série Minecraft. Assim como o "Hero" da série Dragon Quest, Steve conta com variantes e pode assumir a forma de Alex, um Zumbi e um Enderman. A novidade foi anunciada nesta quinta-feira (1), durante uma transmissão ao vivo da Nintendo. Uma nova live está marcada para o próximo sábado (3), quando o produtor da série, Masahiro Sakurai, deve contar mais detalhes sobre os golpes do personagem. Super Smash Bros. Ultimate está disponível atualmente para Nintendo Switch, mas ainda não há uma data de lançamento de Steve no jogo. Confira o vídeo:</p>
+            <iframe class="responsive-iframe" width="1110" height="720" src="https://www.youtube.com/embed/TaDhtEcX1TM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <h1 id="console">Xbox Vs PS5: saiba qual console oferece mais vantagens</h1>
+            <img class="responsiveimg" src="img/xboxvsps5.jpg" width="1110" height="720">
+            <p>Não é de hoje que a Microsoft e a Sony estão em uma verdadeira batalha no mundo dos videogames com seus consoles que oferecem diferentes títulos, controles e recursos. Depois de muitas especulações, ontem (16), nós tivemos a revelação da data de lançamento e preço do PlayStation 5, que ocorreu um pouco após a Microsoft ter dado os detalhes dos novos Xbox.</p>
+            <p>Ambos os videogames procuraram trazer novas tecnologias para esta geração, como a Ray Tracing, que faz com que efeitos de sombra e luz sejam mais realistas e bonitos. De forma geral, a julgar pelos números, o Xbox Series X sai um pouco a frente do PlayStation quando o assunto é poder de processamento gráfico e na velocidade de processamento da CPU, mas por uma margem bem pequena, que, na prática, não deverá fazer tanta diferença em títulos multiplataforma.</p>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <h1 id="starwars">Roteirista de Star Wars Rebels e Rogue One promete novidades para próxima semana</h1>
+            <img src="img/rogueone.png" class="responsiveimg">
+            <p>Gary Whitta utilizou as redes sociais na quarta-feira (30) para deixar os fãs de Star Wars intrigados com apenas uma frase. O roteirista, que fez parte da equipe criativa de Rogue One e Rebels, prometeu ao público uma novidade para a semana que vem.</p>
+            <blockquote class="twitter-tweet" data-theme="dark" id="starwarstweet"><p lang="en" dir="ltr">Some news coming from a galaxy far, far away next week… stay tuned.</p>&mdash; Scary Whitta (@garywhitta) <a href="https://twitter.com/garywhitta/status/1311347123913326592?ref_src=twsrc%5Etfw">September 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <p>"Algumas notícias de uma galáxia muito, muito distante na semana que vem... Fiquem ligados", publicou em seu Twitter. Ele não ofereceu mais nenhuma informação além, apenas respondeu uma fã que perguntou se Baby Yoda faria uma aparição em Star Wars Rebels, mas a resposta foi negativa. "Tentei, mas os publicitários da Criança são um pesadelo", replicou Whitta.</p>
+            <p>O tweet deu margem para diversos fãs curiosos discutirem o que podem vir por aí com a informação do escritor e algumas teorias apontam sobre uma continuação da série. Na Star Wars Celebration 2019, o produtor executivo Dave Filoni declarou que não poderia responder perguntas sobre renovar a animação e nem sobre o destino que tomou Ezra Bridger, o que apesar de decepcionante, deixou boa parte do público esperançoso justamente por ele não ter negado nenhuma das hipóteses.</p>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+            <h1>A 2ª temporada de Outer Banks será lançada?</h1>
+            <p>Será que realmente a segunda temporada dessa série recentemente lançada no catálogo da Netflix irá ser lançada, se sim, quando?</p>
+            <p>Confira a matéria clicando <a href="serie.html">aqui</a> ou na imagem.</p>
+            <a href="serie.html"><img src="img/OUTER2.jpg" class="responsiveimg"></a>
+            <div class="container ">
+                <hr class="linha">
+            </div>
+        </div>
+
+        <div class="container">
+            <footer>1DS - PWI projeto: Nosso Site Ficou Show - 2020 - copyright - NOVOTEC - ETEC Pedro Ferreira Alves - FATEC Arthur de Azevedo</footer>
+        </div>
+
+    </div>  
+    <!-- Optional JavaScript -->
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
